@@ -13,7 +13,6 @@ public class MiRender extends DefaultTableCellRenderer{
 			cell.setForeground(color);
 		}
 		if(value instanceof Integer) {
-			Integer valor=(Integer) value;
 			cell.setBackground(new Color(30,30,30));
 			cell.setForeground(Color.WHITE);
 			cell.setHorizontalAlignment(CENTER);

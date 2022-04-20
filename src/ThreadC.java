@@ -1,7 +1,5 @@
 import java.util.ArrayList;
 
-import javax.swing.table.DefaultTableModel;
-
 import java.awt.geom.*;
 
 public class ThreadC extends Thread{
@@ -10,7 +8,6 @@ public class ThreadC extends Thread{
 	private ArrayList<Proceso> canal2 = new ArrayList<Proceso>();
 	int band;
 	ModeloTabla model;
-	private  String[] columnNames = {"PID", "Color", "T.Espera"};
 	
 	public ThreadC(Lienzo lienzo, ArrayList<Proceso> canal1,ModeloTabla model) {
 		this.model=model;

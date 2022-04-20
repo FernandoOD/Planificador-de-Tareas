@@ -6,7 +6,6 @@ public class Main {
 		planificadorView a= new planificadorView();
 		a.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		a.setVisible(true);
-		
 	}
 
 }

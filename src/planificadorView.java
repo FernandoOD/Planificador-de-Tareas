@@ -1,5 +1,4 @@
 import javax.swing.*;
-import javax.swing.table.DefaultTableModel;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -21,7 +20,6 @@ public class planificadorView extends JFrame implements ActionListener{
 	private JRadioButton MonoTarea, MonoProceso, MultiTarea, MultiProceso, TP, PT, PA, PD;
 	private ButtonGroup bg1,bg2,bg3,bg4;
 	private String ruta;
-	private  String[] columnNames = {"PID", "Color", "T.Espera"};
 	
 	ModeloTabla model = new ModeloTabla();
     final JTable table = new JTable(model);
