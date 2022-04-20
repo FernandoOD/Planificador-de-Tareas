@@ -82,10 +82,6 @@ public class Proceso{
 	public void dibujar(Graphics2D g2){
    	 	g2.setPaint(color);
    	 	g2.fill(circulo);
-   	 	if(origen!=null) {
-   	 		g2.setPaint(Color.BLACK);
-   	 		g2.drawString(String.valueOf(tEspera),(int)origen.getX()-5,(int)origen.getY()+5); 
-   	 	}
    }
 	
 	public void setColor(Color color) {
